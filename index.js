@@ -5,7 +5,8 @@ console.log(count);
 function increment(){
     console.log("button is clicked");
     count++;
-    console.log(count);
+    //console.log(count);
     document.getElementById("count-el").innerText = count;
+    console.log(history.length)
 }
 console.log("end of the index.js");
